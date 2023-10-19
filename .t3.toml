@@ -1,0 +1,12 @@
+version = "1"
+
+[metadata]
+app_id = "helloworld"
+realm = "demo"
+
+[build.helloworld]
+repository = ""
+
+[deployment.static-web]
+image = { id = "helloworld" }
+port = 8080
